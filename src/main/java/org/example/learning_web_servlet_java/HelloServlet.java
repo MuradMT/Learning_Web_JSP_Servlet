@@ -24,4 +24,18 @@ public class HelloServlet extends HttpServlet {
 
     public void destroy() {
     }
+    //Notes
+    /*
+        1.Maven/Gradle is built/dependency tools ,acts as c# nuget
+        2.JSP is java server pages,acts as c# razor
+        3.Servlet acts as c# controller
+        4.Maven installs project to m2 in our laptop
+        5.pom xml file tells us what is dependencies etc
+        6.war is almost same as jar,but it is web archive
+        7.Pom file adds groupid artifact id version etc
+        We can add any console app here in the dependency
+        8.When we deploy with maven it goes to
+        nexus repository,it acts as maven repository
+        9.Tomcat is c# iis or kestrel
+     */
 }
