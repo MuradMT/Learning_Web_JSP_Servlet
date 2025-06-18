@@ -25,6 +25,7 @@ public class HelloServlet extends HttpServlet {
     public void destroy() {
     }
     //Notes
+    //region JSP,Servlet Lesson 1
     /*
         1.Maven/Gradle is built/dependency tools ,acts as c# nuget
         2.JSP is java server pages,acts as c# razor
@@ -38,4 +39,23 @@ public class HelloServlet extends HttpServlet {
         nexus repository,it acts as maven repository
         9.Tomcat is c# iis or kestrel
      */
+    //endregion
+    //region JSP,Servlet Lesson 2
+    /*
+         1.Difference between explode and war file
+         2.Index.jsp is main entry point
+         3.Redeploy vs restart server
+         4.Gradle works with groovy,maven with xml,
+         in maven we can not modify lifecycle
+         5.HTML,CSS,JS,Bootstrap in java
+         6.Learned about scriplet <% %> and
+         expression tags <%= %> in jsp
+         7.<%@ page %> directive in JSP
+         8.out.println() is sout alternative in java web
+         comes from jspwriter
+         9.IN JSP html rendered in server
+         10.JSP is template engine such as razor
+         MVC alternative is thymeleaf
+     */
+    //endregion
 }
