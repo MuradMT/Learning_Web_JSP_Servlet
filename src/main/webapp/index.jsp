@@ -65,5 +65,22 @@
 </table>
     <h3><%out.println(name);%></h3>
     <h3><%= cond<0 ?"Yes":"No" %></h3>
+<h2>Enter Your Name</h2>
+
+<form method="get" action="">
+    <input type="text" name="name" placeholder="Your Name" />
+    <input type="submit" value="Submit" />
+</form>
+
+<%
+    String myname = request.getParameter("name");
+    if (myname != null && !myname.trim().isEmpty()) {
+%>
+<h3>Hello, <%= myname %>!</h3>
+<%
+    }
+%>
+
+</form>
 </body>
 </html>

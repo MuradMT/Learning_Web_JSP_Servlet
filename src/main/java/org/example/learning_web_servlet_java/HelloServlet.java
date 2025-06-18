@@ -56,6 +56,12 @@ public class HelloServlet extends HttpServlet {
          9.IN JSP html rendered in server
          10.JSP is template engine such as razor
          MVC alternative is thymeleaf
+         11.Servlet integrated inside the jsp
+         12.request.getParameter helps us to get query parameters
+         13.form action has get and post versions,get writes things in query
+         post does not
+         14.response.sendREDIRECT redirects to other jsp page
+         15.links here just use a tags no complex
      */
     //endregion
 }
